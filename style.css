@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 10px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: green; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    font-size: 18px; 
+  }
+
+  #myBtn:hover {
+    background-color: #0182fc; /* Add a dark-grey background on hover */
+  }
+  #wa {
+    position: fixed; 
+    bottom: 70px;
+    right: 50px; 
+    z-index: 999; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    font-size: 18px; 
+  }
+  
+  .button {
+    border: none;
+    width: 100px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .button {
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  h2{
+    text-decoration: underline green;
+    font-weight: bold;
+  }
+  h3{
+    font-weight: bold;
+  }
+
+  .link a{
+    text-decoration: none !important;
+    font-size: large;
+    color: white;
+    padding-left: 10px;
+    text-transform: capitalize !important;
+  }
+
+  .fa-brands {
+    font-size: x-large;
+  }
+ @media only screen and (max-width: 990px) {
+    .button {
+     width: 96%;
+    }
+    .tentang{
+      text-align: justify;
+    }
+  @media only screen and (max-width: 400px) {
+    h3 {
+      font-size: small;
+    }
+  }
+}
+
